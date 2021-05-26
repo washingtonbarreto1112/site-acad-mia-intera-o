@@ -1,0 +1,185 @@
+*{ /* zerar toda a margem automatica do navegador (config para a pagina toda) */
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ /* tipo de fonte escolhida para o site, com uma alternativa depois da virgula */
+	font-family: "Calibri", Arial;
+	padding-top: 70px; 
+}
+
+header{ /* estilo do cabeçalho */
+	width: 100%;
+	height: 70px;
+	background-color: #e28f2e;
+	position: fixed;
+	top: 0;
+
+}
+
+.logo{ 
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+}
+
+/* ##### MENU ##### */
+
+nav{
+	height: 70px;
+	font-size: 19px; /* tamanho da fonte*/
+}
+
+nav ul{
+	list-style-type: none; /* remover as bolinhas que estavam aparecendo do lado das palavras */
+}
+
+nav li{
+	float: left; /* alinhar as palavras do menu uma do lado da outra*/
+	margin-left: 5px; /* espaçamento entre as palavras do menu*/
+	padding-left: 20px; /* espaçamento dentro da linha */
+	padding-right: 20px;
+	color: white; /* cor das palavras do menu */
+	font-weight: bold; /* "força" grossura da fonte */
+	line-height: 3.7   /* tamanho de linha, no caso, para ajustar a posição das palavras no menu */
+}
+
+nav ul .BOTAO:hover{ /* dar um efeito sobre as palavras do menu, ao passar o mouse por cima */
+	background-color: rgba(255,255,255,0.2);
+}
+
+/* nav ul .BOTAO:active{  da uma cor de efeito no botão ao segurar o click
+	background-color: black;
+	text-decoration:underline; 
+} */
+
+/* ##### CONTEÚDO ##### */
+
+main{ /* conteúdo principal da página */
+	width: 1000px;
+	height: auto;
+	margin: 0 auto;
+}
+
+h1{
+	font-size: 22px; /* aumentar tamanho de letra */
+	margin-top: 10px;
+}
+
+article{ /* config. para conteúdo dos textos */
+	margin: 10px 0px;
+	text-align: justify; /* alinhar o texto nas margens esquerda e direira */
+}
+
+.fotoshome{ /* config. para conteúdo das fotos */
+	width: 50%;
+	float: left;
+	text-align: center; /* Deixa o conteúdo da "caixa" ao centro */
+	margin-bottom: 10px;
+}
+
+/* ##### RODAPÉ ##### */
+
+footer{ /* config. rodapé */
+	clear: both; /* limpa os estados "FLOAT", tanto left quanto right */
+	width: 100%;
+	background-color: #e28f2e;
+	color: white;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+footer figure img{ /* ajustar icones do rodapé */
+	margin-left: 10px;
+}
+
+/* ##### SOBRE ##### */
+
+.fotossobre{ /* config. imagem que está no site */
+	width: 20%;
+	height: 160px;
+	float: left;
+	padding-top: 15px;
+}
+
+.asobre{ /* config. artigo que está no site */
+	width: 80%;
+	height: 160px;
+	float: left;
+}
+
+/* ##### CONTATO ##### */
+
+.info{
+	width: 370px;
+	float: left;
+}
+
+#formulario{
+	width: 600px;
+	float: right;
+}
+
+#formulario label{
+	font-size: 18px;
+}
+
+#formulario div input{
+	width: 600px;
+	height: 25px;
+	margin-bottom: 5px;
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+}
+
+
+#formulario div textarea{
+	width: 600px;
+	height: 80px;
+	background-color: #fae5cc;
+	border: 1px solid #f2c085;
+	resize: none;
+}
+
+#formulario .BOTAO{
+	width: 100px;
+	height: 35px;
+	font-size: 16px;
+	color: white;
+	margin: 15px 0px 15px 15px;
+	float: right;
+}
+
+#ENVIAR{
+	background-color: #52883f;
+	border: 1px solid #8bac7f;
+}
+
+#LIMPAR{
+	background-color: #c73636;
+	border: 1px solid #b89898;
+}
+
+#formulario h2{
+	text-align: center;
+	font-size: 18px;
+	color: #e28f2e;
+	margin-top: 35px;
+}
+
+/* ##### GALERIA ##### */
+
+.titulogaleria{
+	text-align: center;
+}
+
+.galeria{
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.galeria img{
+	padding: 10px;
+}
+
+
